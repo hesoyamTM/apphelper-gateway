@@ -1,0 +1,8 @@
+version: "3"
+
+tasks:
+  run:
+    aliases:
+      - cmd
+    cmds:
+      - go run ./cmd/main.go --config="./config/local.yaml"

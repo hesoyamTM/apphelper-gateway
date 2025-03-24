@@ -1,0 +1,11 @@
+env: "local"
+
+http:
+  address: "0.0.0.0:49106"
+  timeout: 5s
+  idle_timeout: 60s
+
+clients:
+  sso_address: "localhost:6003"
+  report_address: "localhost:49102"
+  schedule_address: "localhost:49104"
